@@ -16,6 +16,8 @@ const immutableReducer = (state = todos, action) => {
         ...state,
         action.todo
       ]
+
+    //   so basically the spread operator (i.e. "..." creates a clone of whatever it is that follows the operator)
     default:
       return state;
   }
