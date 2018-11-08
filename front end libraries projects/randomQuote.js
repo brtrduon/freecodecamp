@@ -47,6 +47,8 @@ const quotes = [
          quote: '',
          author: ''
        }
+
+       this.newQuote = this.newQuote.bind(this);
      }
     
     componentWillMount() {
