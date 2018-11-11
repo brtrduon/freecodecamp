@@ -38,8 +38,10 @@ const quotes = [
       quote: "Don't give up with coding. I believe in you."
     },
   ]
+
+  import React, { Component } from 'react';
   
-  class App extends React.Component {
+  class App extends Component {
      constructor(props) {
        super(props);
        
