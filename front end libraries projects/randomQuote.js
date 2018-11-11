@@ -37,9 +37,57 @@ const quotes = [
       author: 'Jamie Hirano',
       quote: "Don't give up with coding. I believe in you."
     },
+    {
+      author: 'Confucius',
+      quote: "It does not matter how slowly you go as long as you do not stop."
+    },
+    {
+      author: 'Steve Jobs',
+      quote: "My favorite things in life don't cost any money. It's really clear that the most precious resource we all have is time."
+    },
+    {
+      author: 'Aristotle',
+      quote: "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
+    },
+    {
+      author: 'Pablo Picasso',
+      quote: "He can who thinks he can, and he can't who thinks he can't. This is an inexorable, indisputable law."
+    },
+    {
+      author: 'Napoleon Bonaparte',
+      quote: "Victory is not always winning the battle...but rising every time you fall."
+    },
+    {
+      author: 'Plato',
+      quote: "Reality is created by the mind, we can change our reality by changing our mind."
+    },
+    {
+      author: 'Ralph Waldo Emerson',
+      quote: "What lies behind you and what lies in front of you, pales in comparison to what lies inside of you."
+    },
+    {
+      author: 'Dr. Seuss',
+      quote: "Don't cry because it's over, smile because it happened."
+    },
+    {
+      author: 'Christopher Reeve',
+      quote: "Once you choose hope, anything's possible."
+    },
+    {
+      author: 'Albert Einstein',
+      quote: "Try not to become a person of success, but rather try to become a person of value."
+    },
+    {
+      author: 'Charles Darwin',
+      quote: "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change."
+    },
+    {
+      author: 'Winston Churchill',
+      quote: "If you're going through hell, keep going."
+    },
   ]
 
-  import React, { Component } from 'react';
+  // import React, { Component } from 'react';
   
   class App extends Component {
      constructor(props) {
