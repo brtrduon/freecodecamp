@@ -85,6 +85,10 @@ const quotes = [
       author: 'Winston Churchill',
       quote: "If you're going through hell, keep going."
     },
+    {
+      author: 'Haley Collins',
+      quote: "You can't have hashbrowns if the hash isn't here for the brown."
+    }
   ]
 
   // import React, { Component } from 'react';
