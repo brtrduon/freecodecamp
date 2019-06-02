@@ -1,4 +1,5 @@
-// note: this is only the solution for JS. I omitted the HTML and CSS portions of the project. these can be viewed on my codePen
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
 const quotes = [
     {
@@ -89,13 +90,11 @@ const quotes = [
       author: 'Haley Collins',
       quote: "You can't have hashbrowns if the hash isn't here for the brown."
     }
-  ]
+]
 
-  // import React, { Component } from 'react';
-  
-  class App extends Component {
-     constructor(props) {
-       super(props);
+class App extends Component {
+    constructor(props) {
+        super(props);
        
        this.state = {
          quote: '',
@@ -103,7 +102,7 @@ const quotes = [
        }
 
        this.newQuote = this.newQuote.bind(this);
-     }
+    }
     
     componentWillMount() {
       let randomNum = Math.floor((Math.random()*quotes.length));
@@ -146,10 +145,10 @@ const quotes = [
           <div id='text'>Quote: {this.state.quote}</div>
           <div id='author'>Author: {this.state.author}</div>
           <button id='new-quote' onClick={this.newQuote}>New Quote</button>
-          <a id='tweet-quote' href='twitter.com/intent/tweet'></a>
+          {/* <a id='tweet-quote' href='twitter.com/intent/tweet'></a> */}
         </div>
       )
     }
   }
-  
-  ReactDOM.render(<App />, document.getElementById('app'));
+
+ReactDOM.render(<App />, document.getElementById('root'));
