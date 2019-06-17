@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import './index.css'
 
 const quotes = [
     {
@@ -142,8 +143,8 @@ class App extends Component {
       
       return (
         <div id="quote-box">
-          <div id='text'>Quote: {this.state.quote}</div>
-          <div id='author'>Author: {this.state.author}</div>
+          <div id='text' className='text'>Quote: {this.state.quote}</div>
+          <div id='author' className='text'>Author: {this.state.author}</div>
           <button id='new-quote' onClick={this.newQuote}>New Quote</button>
           {/* <a id='tweet-quote' href='twitter.com/intent/tweet'></a> */}
         </div>
